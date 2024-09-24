@@ -35,3 +35,6 @@ lint = [
 type = [
     "mypy>=1.11.1"
 ]
+
+[tool.hatch.build]
+package-data = { "kommonlib" = ["py.typed"] }
